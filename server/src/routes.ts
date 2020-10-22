@@ -6,6 +6,7 @@ import ItemsController from './controllers/ItemsController';
 const routes = express.Router();
 const pointsController = new PointsController();
 const itemsController = new ItemsController();
+// Teste de commit
 
 routes.get('/items', itemsController.index);
 
