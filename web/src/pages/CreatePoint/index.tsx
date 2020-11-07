@@ -43,7 +43,6 @@ const CreatePoint = () => {
     }, []);
 
     useEffect(() => {
-        //carregar as cidades sempre que a UF mudar
         if (selectedUf === '0'){
             return;
         }
